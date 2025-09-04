@@ -42,7 +42,9 @@ namespace Task_Management_System
 
         private void button1_Click(object sender, EventArgs e)
         {
-            TaskManagement tasksForm = new TaskManagement(loggedInUser);
+            //TasksManagement tasksForm = new TasksManagement(loggedInUser);
+            //tasksForm.Show();
+            ManageTasks tasksForm = new ManageTasks(loggedInUser);
             tasksForm.Show();
             this.Hide();
         }

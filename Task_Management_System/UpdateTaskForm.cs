@@ -17,10 +17,10 @@ namespace Task_Management_System
 
 
         private TaskManagementContext context = new TaskManagementContext();
-        private TaskManagement manageTasksForm;
+        private ManageTasks manageTasksForm;
         private TaskItem currentTask;
 
-        public UpdateTaskForm(int taskId, TaskManagement tasksForm)
+        public UpdateTaskForm(int taskId, ManageTasks tasksForm)
         {
             InitializeComponent();
             manageTasksForm = tasksForm;

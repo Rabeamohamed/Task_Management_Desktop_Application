@@ -16,9 +16,9 @@ namespace Task_Management_System
     {
         private TaskManagementContext context = new TaskManagementContext();
         private User loggedInUser;
-        private TaskManagement manageTasksForm;
+        private ManageTasks manageTasksForm;
 
-        public AddTaskForm(User user, TaskManagement tasksForm)
+        public AddTaskForm(User user, ManageTasks tasksForm)
         {
             InitializeComponent();
             loggedInUser = user;
